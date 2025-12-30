@@ -1,0 +1,36 @@
+[versions]
+agp = "8.12.2"
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+appcompat-app = "1.7.1"
+appcompat-library = "1.7.1"
+material-app = "1.12.0"
+material-library = "1.12.0"
+activity-app = "1.10.1"
+activity-library = "1.10.1"
+constraintlayout-app = "2.2.1"
+constraintlayout-library = "2.2.1"
+recyclerview-app = "1.4.0"
+recyclerview-library = "1.4.0"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat-app = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat.app" }
+appcompat-library = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat.library" }
+annotation = { group = "androidx.annotation", name = "annotation", version = "1.6.0" }
+material-app = { group = "com.google.android.material", name = "material", version.ref = "material.app" }
+material-library = { group = "com.google.android.material", name = "material", version.ref = "material.library" }
+activity-app = { group = "androidx.activity", name = "activity", version.ref = "activity.app" }
+activity-library = { group = "androidx.activity", name = "activity", version.ref = "activity.library" }
+constraintlayout-app = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout.app" }
+constraintlayout-library = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout.library" }
+recyclerview-app = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview.app" }
+recyclerview-library = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview.library" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+
