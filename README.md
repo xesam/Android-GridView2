@@ -2,6 +2,12 @@
 
 一个灵活的网格布局组件，基于RecyclerView实现，支持动态列数和行数控制。
 
+## 安装
+
+```groovy
+implementation 'io.github.xesam:android-gridview2:0.0.1'
+```
+
 ## 特性说明
 
 ### 核心功能
