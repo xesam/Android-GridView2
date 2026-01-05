@@ -2,6 +2,10 @@
 
 一个灵活的网格布局组件，基于RecyclerView实现，支持动态列数和行数控制。
 
+预览：
+
+![gridview2](./gridview2.jpg)
+
 ## 安装
 
 ```groovy
